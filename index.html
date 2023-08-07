@@ -66,7 +66,7 @@
           </li>
           <li>
             <figure>
-              <img src="img/sony.jpg" alt="Кино сервис Netflix" height="228px">
+              <img src="img/sony.jpg" alt="Игровая приставка" height="228px">
               <figcaption>PlayStation 5</figcaption>
             </figure>
           </li>
@@ -94,6 +94,116 @@
             <p><cite>Аркадий Абакин, создатель игровой территории GAME OVER</cite></p>
           </blockquote>
       </section>
+      <form action="https://jsonplaceholder.typicode.com/posts"
+      method="post">
+        <h2>Забронировать</h2>    
+        <fieldset>
+          <label>
+            <input type="radio" name="halls" value="vibes" checked>80's vibes
+          </label>
+          <label>
+            <input type="radio" name="halls" value="star">Star wars
+          </label>
+          <label>
+            <input type="radio" name="halls" value="west">Wild west
+          </label>  
+          <label>  
+            <input type="radio" name="halls" value="neon">Neon style
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Собери набор развлечений</legend>
+          <fieldset>
+            <legend>Приставка:</legend>
+            <label>
+              <input type="radio" name="consoles" value="ps" checked>PlayStation
+            </label>
+            <label>
+              <input type="radio" name="consoles" value="sega">Sega Mega Drive
+            </label>
+            <label>
+              <input type="radio" name="consoles" value="xbox">X-box One S
+            </label>  
+            <label>  
+              <input type="radio" name="consoles" value="dendy">Dendy
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Настольные игры:</legend>
+            <label>
+              <input type="checkbox" name="games" value="jenga">Jenga
+            </label>
+            <label>
+              <input type="checkbox" name="games" value="monopoly">Monopoly
+            </label>
+            <label>
+              <input type="checkbox" name="games" value="manch">Манчкин
+            </label>  
+            <label>  
+              <input type="checkbox" name="games" value="alias">Alias
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Дополнительно:</legend>
+            <label>
+              <input type="checkbox" name="entertainment" value="karaoke" >Караоке
+            </label>
+            <label>
+              <input type="checkbox" name="entertainment" value="vr">VR
+            </label>
+          </fieldset>
+        </fieldset>
+
+        <fieldset>
+          <legend>Выбери дату и время</legend>
+
+          <section>
+            <label>Дата<abbr title="required">*</abbr>
+              <input type="date" name="date" required >
+            </label>
+            <label>Время<abbr title="required">*</abbr>
+              <input type="time" name="time" required >
+            </label>
+          </section>
+
+          <p>  
+            <label>Количество человек<abbr title="required">*</abbr>
+              <input type="number" name="count" required >
+            </label>
+          </p>
+
+          <section>
+            <p>
+              <label>Имя<abbr title="required">*</abbr>
+                <input type="text" name="firstname" required >
+              </label>
+            </p>
+            <p>
+              <label>Фамилия<abbr title="required">*</abbr>
+                <input type="text" name="lastname" required >
+              </label>
+            </p>
+            <p>
+              <label>Номер телефона<abbr title="required">*</abbr>
+                <input type="tel" name="tel" pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}" title="+7-___-___-__-__" required >
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" name="adult">Я старше 18 лет
+              </label>
+            </p>
+          </section>
+
+        </fieldset>
+ 
+        <button type="submit">Забронировать</button>
+        
+        <label>
+          <input type="checkbox" name="agree" required>Согласен на обработку данных
+        </label>
+
+      </form>
     </main>
     <footer id="contacts">
       <h2>Контакты</h2>
@@ -109,5 +219,5 @@
         
     </footer>
 
-</body>
+  </body>
 </html>
