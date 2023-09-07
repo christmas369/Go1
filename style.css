@@ -20,7 +20,7 @@ body {
 
 .menu-title, .menu-list, 
 .section1-list, .section1-title,
-.halls-title, .about-title, .about-text, .about-blockquote__cite, .about-blockquote__text,
+.halls-list, .halls-title, .about-title, .about-text, .about-blockquote__cite, .about-blockquote__text,
 .order-title, .review-title, .review-list, .review-user__text,
 .contacts-title, .contacts-mail, .contacts-tel, .contacts-address,
 .socials {
@@ -31,21 +31,18 @@ body {
   margin: 0;
 }
 
-.halls-list {
-  padding-left:0;
-  margin:0 auto;
-}
-
 .order-entertainment, .order-set, .order-halls, .order-games, .order-consoles, .order-calendar {
   border:none;
   padding:0;
   margin:0;
 }
-li {
-  list-style-type: none;
-}
 
-ul {
+.section1-list, .review-list, .menu-list, .socials, .halls-list {
   margin-left: 0;
   padding-left: 0;
 }
+
+.section1-item, .menu-item, .halls-item, .review-item, .socials-item {
+  list-style-type: none;
+}
+
