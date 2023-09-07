@@ -1,15 +1,51 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1B1A1B;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.about-blockquote {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
   }
-  body {
-    background-color: #1B1A1B;
-    color: #FFFFFF;
-  }
-  blockquote {
-    text-transform: uppercase;
-  }
-  .wrapper {
-    width: 1200px;
-    padding: 30px;
-    margin: 0 auto;
-  }
+
+.menu-title, .menu-list, 
+.section1-list, .section1-title,
+.halls-title, .about-title, .about-text, .about-blockquote__cite, .about-blockquote__text,
+.order-title, .review-title, .review-list, .review-user__text,
+.contacts-title, .contacts-mail, .contacts-tel, .contacts-address,
+.socials {
+  margin: 0 auto;
+}
+
+.section1-features, .about-blockquote, .review-user {
+  margin: 0;
+}
+
+.halls-list {
+  padding-left:0;
+  margin:0 auto;
+}
+
+.order-entertainment, .order-set, .order-halls, .order-games, .order-consoles, .order-calendar {
+  border:none;
+  padding:0;
+  margin:0;
+}
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
