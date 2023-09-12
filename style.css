@@ -18,7 +18,7 @@ body {
   margin: 0 auto;
   }
 
-.menu-title, .menu-list, 
+/*.menu-title, .menu-list, 
 .section1-list, .section1-title,
 .halls-list, .halls-title, .about-title, .about-text, .about-blockquote__cite, .about-blockquote__text,
 .order-title, .review-title, .review-list, .review-user__text,
@@ -44,5 +44,40 @@ body {
 
 .section1-item, .menu-item, .halls-item, .review-item, .socials-item {
   list-style-type: none;
+}*/
+.main-item {
+  list-style-type: none;
+}
+.main-list{
+  margin-left: 0;
+  padding-left: 0;
+}
+.menu-item {
+  list-style-type: none;
+}
+.menu-list{
+  margin-left: 0;
+  padding-left: 0;
+}
+.halls-item{
+  list-style-type: none;
+}
+.halls-list {
+  margin-left: 0;
+  padding-left: 0;
+}
+.review-item {
+  list-style-type: none;
+}
+.review-list {
+  margin-left: 0;
+  padding-left: 0;
+}
+.socials-item {
+  list-style-type: none;
+}
+.socials {
+  margin-left: 0;
+  padding-left: 0;
 }
 
